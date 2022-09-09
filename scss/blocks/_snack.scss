@@ -1,0 +1,410 @@
+.snack{
+    &__row{
+        display: flex;
+        justify-content: space-between;
+
+        &__title{
+            margin: 0;
+            width: 350px;
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: $g-blue;
+        }
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+
+        &__name{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            color: $g-blue;
+            width: 635px;
+            margin-bottom: 8px;
+        }
+
+        &__text{
+            padding: 9px 0 9px 16px;
+            width: 635px;
+            margin-bottom: 24px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: $g-blue;
+            background-color: $light-grey;
+            border: none;
+
+            &:focus{
+                border: 1px solid $green;
+                color: #333;
+            }
+        }
+
+        &__address{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            color: $g-blue;
+            width: 635px;
+            margin-bottom: 8px;
+        }
+
+        &__email{
+            padding: 9px 0 9px 16px;
+            width: 635px;
+            margin-bottom: 24px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: $g-blue;
+            background-color: $light-grey;
+            border: none;
+
+            &:focus{
+                border: 1px solid $green;
+                color: #333;
+            }
+        }
+
+        &__message{
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            color: $g-blue;
+            width: 635px;
+            margin-bottom: 8px;
+        }
+
+        &__textarea{
+            padding: 9px 0 0 16px;
+            width: 635px;
+            height: 96px;
+            margin-bottom: 24px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: $g-blue;
+            background-color: $light-grey;
+            border: none;
+
+            &:focus{
+                border: 1px solid $green;
+                color: #333;
+            }
+        }
+
+        &__btn{
+            width: 200px;
+            padding: 17px 24px;
+            background-color: $dark-blue;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+
+            &:hover{
+                background-color: $green;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .snack{
+        &__row{
+            display: flex;
+            flex-direction: column;
+    
+            &__title{
+                margin: 0;
+                width: 350px;
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                letter-spacing: -0.357143px;
+                color: $g-blue;
+                margin-bottom: 32px;
+            }
+        }
+    
+        &__form{
+            display: flex;
+            flex-direction: column;
+    
+            &__name{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                width: 635px;
+                margin-bottom: 8px;
+            }
+    
+            &__text{
+                padding: 9px 0 9px 16px;
+                width: 704px;
+                margin-bottom: 24px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                background-color: $light-grey;
+                border: none;
+    
+                &:focus{
+                    border: 1px solid $green;
+                    color: #333;
+                }
+            }
+    
+            &__address{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                width: 635px;
+                margin-bottom: 8px;
+            }
+    
+            &__email{
+                padding: 9px 0 9px 16px;
+                width: 704px;
+                margin-bottom: 24px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                background-color: $light-grey;
+                border: none;
+    
+                &:focus{
+                    border: 1px solid $green;
+                    color: #333;
+                }
+            }
+    
+            &__message{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                width: 635px;
+                margin-bottom: 8px;
+            }
+    
+            &__textarea{
+                padding: 9px 0 0 16px;
+                width: 704px;
+                height: 96px;
+                margin-bottom: 24px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                background-color: $light-grey;
+                border: none;
+    
+                &:focus{
+                    border: 1px solid $green;
+                    color: #333;
+                }
+            }
+    
+            &__btn{
+                width: 200px;
+                padding: 17px 24px;
+                background-color: $dark-blue;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                border: none;
+    
+                &:hover{
+                    background-color: $green;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .snack{
+        &__row{
+            display: flex;
+            flex-direction: column;
+    
+            &__title{
+                margin: 0;
+                width: 311px;
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                letter-spacing: -0.357143px;
+                color: $g-blue;
+                margin-bottom: 24px;
+            }
+        }
+    
+        &__form{
+            display: flex;
+            flex-direction: column;
+    
+            &__name{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                width: 37px;
+                margin-bottom: 8px;
+            }
+    
+            &__text{
+                padding: 9px 0 9px 16px;
+                width: 311px;
+                margin-bottom: 24px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                background-color: $light-grey;
+                border: none;
+    
+                &:focus{
+                    border: 1px solid $green;
+                    color: #333;
+                }
+            }
+    
+            &__address{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                width: 90px;
+                margin-bottom: 8px;
+            }
+    
+            &__email{
+                padding: 9px 0 9px 16px;
+                width: 311px;
+                margin-bottom: 24px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                background-color: $light-grey;
+                border: none;
+    
+                &:focus{
+                    border: 1px solid $green;
+                    color: #333;
+                }
+            }
+    
+            &__message{
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                width: 56px;
+                margin-bottom: 8px;
+            }
+    
+            &__textarea{
+                padding: 9px 0 0 16px;
+                width: 311px;
+                height: 96px;
+                margin-bottom: 24px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 30px;
+                color: $g-blue;
+                background-color: $light-grey;
+                border: none;
+    
+                &:focus{
+                    border: 1px solid $green;
+                    color: #333;
+                }
+            }
+    
+            &__btn{
+                width: 200px;
+                padding: 17px 24px;
+                background-color: $dark-blue;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                border: none;
+    
+                &:hover{
+                    background-color: $green;
+                }
+            }
+        }
+    }
+}

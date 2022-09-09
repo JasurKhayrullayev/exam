@@ -1,0 +1,19 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $bg-grey;
+}
+
+.container{
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 0 32px;
+}

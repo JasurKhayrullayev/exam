@@ -1,0 +1,211 @@
+.about{
+    padding: 150px 0;
+    &__row{
+        display: flex;
+        
+        &__left{
+            width: 540px;
+            height: 600px;
+            display: flex;
+            background-image: url(../../images/okaxon.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            
+        }
+
+        &__right{
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+            margin-left: 125px;
+            border-top: 1px solid $g-blue;
+            border-bottom: 1px solid $g-blue;
+            padding: 50px 0 46px 0;
+
+            &__title{
+                margin:0;
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                letter-spacing: -0.357143px;
+                color: $g-blue;
+            }
+
+            &__paragraph{
+                margin: 0;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                color: $g-blue;
+                margin: 28px 0 24px 0;
+            }
+
+            &__link{
+                max-width: 206px;
+                text-decoration: none;
+                padding: 17px 34px;
+                border: 1px solid $g-blue;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: $g-blue;
+
+                &:hover{
+                    background-color: $g-blue;
+                    color:#f2f2f2;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about{
+        padding: 96px 0;
+        &__row{
+            display: flex;
+            
+            &__left{
+                width: 281px;
+                height: 600px;
+                display: flex;
+                background-image: url(../../images/t-okaxon.webp);
+                background-repeat: no-repeat;
+                background-position: center;
+                
+            }
+    
+            &__right{
+                display: flex;
+                flex-direction: column;
+                max-width: 339px;
+                margin-left: 69px;
+                border-top: 1px solid $g-blue;
+                border-bottom: 1px solid $g-blue;
+                padding: 50px 0 46px 0;
+    
+                &__title{
+                    margin:0;
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    letter-spacing: -0.357143px;
+                    color: $g-blue;
+                }
+    
+                &__paragraph{
+                    margin: 0;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: $g-blue;
+                    margin: 28px 0 24px 0;
+                }
+    
+                &__link{
+                    max-width: 206px;
+                    text-decoration: none;
+                    padding: 17px 34px;
+                    border: 1px solid $g-blue;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: $g-blue;
+
+                    &:hover{
+                        background-color: $g-blue;
+                        color:#f2f2f2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .about{
+        padding: 96px 0 115px 0;
+        &__row{
+            display: flex;
+            flex-direction: column;
+            
+            &__left{
+                width: 311px;
+                height: 346px;
+                display: flex;
+                background-image: url(../../images/m-okaxon.webp);
+                background-repeat: no-repeat;
+                background-position: center;
+                
+            }
+    
+            &__right{
+                display: flex;
+                flex-direction: column;
+                max-width: 311px;
+                margin-left: 0;
+                border-top: 1px solid $g-blue;
+                border-bottom: 1px solid $g-blue;
+                padding: 32px 0 51px 0;
+    
+                &__title{
+                    margin:0;
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    letter-spacing: -0.357143px;
+                    color: $g-blue;
+                }
+    
+                &__paragraph{
+                    margin: 0;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: $g-blue;
+                    margin: 28px 0 24px 0;
+                }
+    
+                &__link{
+                    max-width: 206px;
+                    text-decoration: none;
+                    padding: 17px 34px;
+                    border: 1px solid $g-blue;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: $g-blue;
+
+                    &:hover{
+                        background-color: $g-blue;
+                        color:#f2f2f2;
+                    }
+                }
+            }
+        }
+    }
+}
